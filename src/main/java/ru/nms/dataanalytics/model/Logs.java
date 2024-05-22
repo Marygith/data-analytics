@@ -12,7 +12,7 @@ import java.time.LocalDateTime;
 @Setter
 @ToString
 @Entity
-@Table(name = "client")
+@Table(name = "logs")
 public class Logs {
 
     @Id
@@ -22,6 +22,9 @@ public class Logs {
     private String tableName;
 
     private LocalDateTime time;
+
+    private String operation;
+
 
     private String values;
 }

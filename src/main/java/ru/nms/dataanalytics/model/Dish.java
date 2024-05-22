@@ -10,7 +10,7 @@ import lombok.*;
 @Setter
 @ToString
 @Entity
-@Table(name = "client")
+@Table(name = "dish")
 public class Dish {
 
     @Id

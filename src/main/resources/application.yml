@@ -1,0 +1,15 @@
+spring.application.name: data-analytics
+server:
+  port: 8080
+spring:
+  datasource:
+    password: pass
+    url: jdbc:postgresql://localhost:5432/data_analytics_db
+    username: postgres
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
