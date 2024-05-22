@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "664e40cd5fabc4a74501deb0"
+  },
+  "name": "ABC Restaurant",
+  "phone": "123-456-7890",
+  "email": "abc@example.com",
+  "foundingDay": {
+    "$date": "2018-04-15T16:54:40.000Z"
+  },
+  "address": "123 Main Street"
+},
+{
+  "_id": {
+    "$oid": "664e42a05fabc4a74501deb3"
+  },
+  "name": "XYZ Diner",
+  "phone": "987-654-3210",
+  "email": "xyz@example.com",
+  "foundingDay": {
+    "$date": "2010-04-15T16:54:40.000Z"
+  },
+  "address": "456 Elm Street"
+},
+{
+  "_id": {
+    "$oid": "664e42a05fabc4a74501deb4"
+  },
+  "name": "PQR Cafe",
+  "phone": "111-222-3333",
+  "email": "pqr@example.com",
+  "foundingDay": {
+    "$date": "2015-04-15T16:54:40.000Z"
+  },
+  "address": "789 Oak Avenue"
+}]

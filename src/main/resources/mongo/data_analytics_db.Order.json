@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "664e45cd5fabc4a74501debf"
+  },
+  "id": {
+    "$oid": "664e40cd5fabc4a74501deb0"
+  },
+  "restaurant": {
+    "$oid": "664e40cd5fabc4a74501deb0"
+  },
+  "client": {
+    "$oid": "664e40cd5fabc4a74501deb0"
+  },
+  "orderDish": [
+    "Spaghetti",
+    "Salad",
+    "Garlic Bread"
+  ],
+  "totalBonus": 100,
+  "cost": 3500,
+  "payment": 4000,
+  "bonusForVisit": 50,
+  "statuses": {
+    "PREPARING": "2024-05-22T10:30:00",
+    "DELIVERING": "2024-05-22T12:15:00",
+    "DELIVERED": "2024-05-22T12:45:00"
+  },
+  "finalStatus": "DELIVERED",
+  "updateTime": "2024-05-22T12:45:00"
+},
+{
+  "_id": {
+    "$oid": "664e45cd5fabc4a74501dec0"
+  },
+  "id": {
+    "$oid": "664e40cd5fabc4a74501deb1"
+  },
+  "restaurant": {
+    "$oid": "664e42a05fabc4a74501deb3"
+  },
+  "client": {
+    "$oid": "664e40cd5fabc4a74501deb2"
+  },
+  "orderDish": [
+    "Sushi",
+    "Miso Soup",
+    "Tempura"
+  ],
+  "totalBonus": 150,
+  "cost": 5000,
+  "payment": 5500,
+  "bonusForVisit": 70,
+  "statuses": {
+    "PREPARING": "2024-05-22T11:00:00",
+    "DELIVERING": "2024-05-22T12:45:00",
+    "DELIVERED": "2024-05-22T13:15:00"
+  },
+  "finalStatus": "DELIVERED",
+  "updateTime": "2024-05-22T13:15:00"
+}]

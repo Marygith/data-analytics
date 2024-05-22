@@ -1,0 +1,90 @@
+[{
+  "_id": {
+    "$oid": "664e40cd5fabc4a74501deb0"
+  },
+  "name": "John Doe",
+  "phone": "123-456-7890",
+  "email": "john@example.com",
+  "birthday": "1990-05-15",
+  "login": "johndoe",
+  "address": {
+    "city": "New York",
+    "street": "123 Main Street",
+    "building": "Apt 101"
+  }
+},
+{
+  "_id": {
+    "$oid": "664e40cd5fabc4a74501deb1"
+  },
+  "name": "Jane Smith",
+  "phone": "987-654-3210",
+  "email": "jane@example.com",
+  "birthday": "1985-08-20",
+  "login": "janesmith",
+  "address": {
+    "city": "Los Angeles",
+    "street": "456 Elm Street",
+    "building": "Suite 201"
+  }
+},
+{
+  "_id": {
+    "$oid": "664e40cd5fabc4a74501deb2"
+  },
+  "name": "Alice Johnson",
+  "phone": "111-222-3333",
+  "email": "alice@example.com",
+  "birthday": "1995-03-10",
+  "login": "alicejohnson",
+  "address": {
+    "city": "Chicago",
+    "street": "789 Oak Avenue",
+    "building": "Unit 301"
+  }
+},
+{
+  "_id": {
+    "$oid": "664e40cd5fabc4a74501deb3"
+  },
+  "name": "Sarah Johnson",
+  "phone": "111-222-3333",
+  "email": "sarahjohnson@example.com",
+  "birthday": "1993-09-22",
+  "login": "sarahjohnson",
+  "address": {
+    "city": "Miami",
+    "street": "789 Ocean Drive",
+    "building": "Unit 501"
+  }
+},
+{
+  "_id": {
+    "$oid": "664e40cd5fabc4a74501deb4"
+  },
+  "name": "Kevin Rodriguez",
+  "phone": "222-333-4444",
+  "email": "kevinrodriguez@example.com",
+  "birthday": "1988-06-12",
+  "login": "kevinrodriguez",
+  "address": {
+    "city": "Dallas",
+    "street": "456 Oak Street",
+    "building": "Suite 301"
+  }
+},
+{
+  "_id": {
+    "$oid": "664e40cd5fabc4a74501deb5"
+  },
+  "name": "Emily Wang",
+  "phone": "333-444-5555",
+  "email": "emilywang@example.com",
+  "birthday": "1991-04-18",
+  "login": "emilywang",
+  "address": {
+    "city": "Seattle",
+    "street": "321 Pine Avenue",
+    "building": "Apt 201"
+  }
+}]
