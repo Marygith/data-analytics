@@ -1,60 +1,579 @@
-[{
-  "_id": {
-    "$oid": "664e45cd5fabc4a74501debf"
+[
+  {
+    "_id": {
+      "$oid": "664e45cd5fabc4a74501dec1"
+    },
+    "restaurant": {
+      "$oid": "664e40cd5fabc4a74501deb1"
+    },
+    "client": {
+      "$oid": "664e40cd5fabc4a74501deb1"
+    },
+    "orderDish": [
+      "Burger",
+      "Fries",
+      "Coke"
+    ],
+    "totalBonus": 120,
+    "cost": 2500,
+    "payment": 3000,
+    "bonusForVisit": 60,
+    "statuses": {
+      "PREPARING": "2024-06-01T10:00:00",
+      "DELIVERING": "2024-06-01T11:00:00",
+      "DELIVERED": "2024-06-01T11:30:00"
+    },
+    "finalStatus": "DELIVERED",
+    "updateTime": "2024-06-01T11:30:00"
   },
-  "id": {
-    "$oid": "664e40cd5fabc4a74501deb0"
+  {
+    "_id": {
+      "$oid": "664e45cd5fabc4a74501dec2"
+    },
+    "restaurant": {
+      "$oid": "664e42a05fabc4a74501deb4"
+    },
+    "client": {
+      "$oid": "664e40cd5fabc4a74501deb3"
+    },
+    "orderDish": [
+      "Pizza",
+      "Salad"
+    ],
+    "totalBonus": 80,
+    "cost": 2000,
+    "payment": 2500,
+    "bonusForVisit": 40,
+    "statuses": {
+      "PREPARING": "2024-06-02T10:30:00",
+      "DELIVERING": "2024-06-02T11:15:00",
+      "DELIVERED": "2024-06-02T11:45:00"
+    },
+    "finalStatus": "DELIVERED",
+    "updateTime": "2024-06-02T11:45:00"
   },
-  "restaurant": {
-    "$oid": "664e40cd5fabc4a74501deb0"
+  {
+    "_id": {
+      "$oid": "664e45cd5fabc4a74501dec3"
+    },
+    "restaurant": {
+      "$oid": "664e40cd5fabc4a74501deb2"
+    },
+    "client": {
+      "$oid": "664e40cd5fabc4a74501deb2"
+    },
+    "orderDish": [
+      "Pasta",
+      "Wine"
+    ],
+    "totalBonus": 200,
+    "cost": 4500,
+    "payment": 5000,
+    "bonusForVisit": 100,
+    "statuses": {
+      "PREPARING": "2024-06-03T12:00:00",
+      "DELIVERING": "2024-06-03T13:00:00",
+      "DELIVERED": "2024-06-03T13:30:00"
+    },
+    "finalStatus": "DELIVERED",
+    "updateTime": "2024-06-03T13:30:00"
   },
-  "client": {
-    "$oid": "664e40cd5fabc4a74501deb0"
+  {
+    "_id": {
+      "$oid": "664e45cd5fabc4a74501dec4"
+    },
+    "restaurant": {
+      "$oid": "664e42a05fabc4a74501deb5"
+    },
+    "client": {
+      "$oid": "664e40cd5fabc4a74501deb4"
+    },
+    "orderDish": [
+      "Sushi",
+      "Tea"
+    ],
+    "totalBonus": 170,
+    "cost": 5000,
+    "payment": 5500,
+    "bonusForVisit": 70,
+    "statuses": {
+      "PREPARING": "2024-06-04T11:30:00",
+      "DELIVERING": "2024-06-04T12:15:00",
+      "DELIVERED": "2024-06-04T12:45:00"
+    },
+    "finalStatus": "DELIVERED",
+    "updateTime": "2024-06-04T12:45:00"
   },
-  "orderDish": [
-    "Spaghetti",
-    "Salad",
-    "Garlic Bread"
-  ],
-  "totalBonus": 100,
-  "cost": 3500,
-  "payment": 4000,
-  "bonusForVisit": 50,
-  "statuses": {
-    "PREPARING": "2024-05-22T10:30:00",
-    "DELIVERING": "2024-05-22T12:15:00",
-    "DELIVERED": "2024-05-22T12:45:00"
+  {
+    "_id": {
+      "$oid": "664e45cd5fabc4a74501dec5"
+    },
+    "restaurant": {
+      "$oid": "664e40cd5fabc4a74501deb3"
+    },
+    "client": {
+      "$oid": "664e40cd5fabc4a74501deb5"
+    },
+    "orderDish": [
+      "Steak",
+      "Potatoes",
+      "Beer"
+    ],
+    "totalBonus": 140,
+    "cost": 4000,
+    "payment": 4500,
+    "bonusForVisit": 70,
+    "statuses": {
+      "PREPARING": "2024-06-05T10:45:00",
+      "DELIVERING": "2024-06-05T11:30:00",
+      "DELIVERED": "2024-06-05T12:00:00"
+    },
+    "finalStatus": "DELIVERED",
+    "updateTime": "2024-06-05T12:00:00"
   },
-  "finalStatus": "DELIVERED",
-  "updateTime": "2024-05-22T12:45:00"
-},
-{
-  "_id": {
-    "$oid": "664e45cd5fabc4a74501dec0"
+  {
+    "_id": {
+      "$oid": "664e45cd5fabc4a74501dec6"
+    },
+    "restaurant": {
+      "$oid": "664e42a05fabc4a74501deb6"
+    },
+    "client": {
+      "$oid": "664e40cd5fabc4a74501deb6"
+    },
+    "orderDish": [
+      "Ramen",
+      "Gyoza"
+    ],
+    "totalBonus": 90,
+    "cost": 3000,
+    "payment": 3500,
+    "bonusForVisit": 45,
+    "statuses": {
+      "PREPARING": "2024-06-06T09:30:00",
+      "DELIVERING": "2024-06-06T10:15:00",
+      "DELIVERED": "2024-06-06T10:45:00"
+    },
+    "finalStatus": "DELIVERED",
+    "updateTime": "2024-06-06T10:45:00"
   },
-  "id": {
-    "$oid": "664e40cd5fabc4a74501deb1"
+  {
+    "_id": {
+      "$oid": "664e45cd5fabc4a74501dec7"
+    },
+    "restaurant": {
+      "$oid": "664e40cd5fabc4a74501deb4"
+    },
+    "client": {
+      "$oid": "664e40cd5fabc4a74501deb7"
+    },
+    "orderDish": [
+      "Tacos",
+      "Guacamole"
+    ],
+    "totalBonus": 100,
+    "cost": 2500,
+    "payment": 3000,
+    "bonusForVisit": 50,
+    "statuses": {
+      "PREPARING": "2024-06-07T12:00:00",
+      "DELIVERING": "2024-06-07T12:45:00",
+      "DELIVERED": "2024-06-07T13:15:00"
+    },
+    "finalStatus": "DELIVERED",
+    "updateTime": "2024-06-07T13:15:00"
   },
-  "restaurant": {
-    "$oid": "664e42a05fabc4a74501deb3"
+  {
+    "_id": {
+      "$oid": "664e45cd5fabc4a74501dec8"
+    },
+    "restaurant": {
+      "$oid": "664e42a05fabc4a74501deb7"
+    },
+    "client": {
+      "$oid": "664e40cd5fabc4a74501deb8"
+    },
+    "orderDish": [
+      "Fish and Chips",
+      "Lemonade"
+    ],
+    "totalBonus": 80,
+    "cost": 2000,
+    "payment": 2500,
+    "bonusForVisit": 40,
+    "statuses": {
+      "PREPARING": "2024-06-08T11:30:00",
+      "DELIVERING": "2024-06-08T12:15:00",
+      "DELIVERED": "2024-06-08T12:45:00"
+    },
+    "finalStatus": "DELIVERED",
+    "updateTime": "2024-06-08T12:45:00"
   },
-  "client": {
-    "$oid": "664e40cd5fabc4a74501deb2"
+  {
+    "_id": {
+      "$oid": "664e45cd5fabc4a74501dec9"
+    },
+    "restaurant": {
+      "$oid": "664e40cd5fabc4a74501deb5"
+    },
+    "client": {
+      "$oid": "664e40cd5fabc4a74501deb9"
+    },
+    "orderDish": [
+      "Chicken Wings",
+      "Beer"
+    ],
+    "totalBonus": 110,
+    "cost": 3500,
+    "payment": 4000,
+    "bonusForVisit": 55,
+    "statuses": {
+      "PREPARING": "2024-06-09T10:00:00",
+      "DELIVERING": "2024-06-09T10:45:00",
+      "DELIVERED": "2024-06-09T11:15:00"
+    },
+    "finalStatus": "DELIVERED",
+    "updateTime": "2024-06-09T11:15:00"
   },
-  "orderDish": [
-    "Sushi",
-    "Miso Soup",
-    "Tempura"
-  ],
-  "totalBonus": 150,
-  "cost": 5000,
-  "payment": 5500,
-  "bonusForVisit": 70,
-  "statuses": {
-    "PREPARING": "2024-05-22T11:00:00",
-    "DELIVERING": "2024-05-22T12:45:00",
-    "DELIVERED": "2024-05-22T13:15:00"
+  {
+    "_id": {
+      "$oid": "664e45cd5fabc4a74501deca"
+    },
+    "restaurant": {
+      "$oid": "664e42a05fabc4a74501deb8"
+    },
+    "client": {
+      "$oid": "664e40cd5fabc4a74501deba"
+    },
+    "orderDish": [
+      "BBQ Ribs",
+      "Coleslaw"
+    ],
+    "totalBonus": 130,
+    "cost": 4000,
+    "payment": 4500,
+    "bonusForVisit": 65,
+    "statuses": {
+      "PREPARING": "2024-06-10T09:30:00",
+      "DELIVERING": "2024-06-10T10:15:00",
+      "DELIVERED": "2024-06-10T10:45:00"
+    },
+    "finalStatus": "DELIVERED",
+    "updateTime": "2024-06-10T10:45:00"
   },
-  "finalStatus": "DELIVERED",
-  "updateTime": "2024-05-22T13:15:00"
-}]
+  {
+    "_id": {
+      "$oid": "664e45cd5fabc4a74501decb"
+    },
+    "restaurant": {
+      "$oid": "664e40cd5fabc4a74501deb6"
+    },
+    "client": {
+      "$oid": "664e40cd5fabc4a74501debb"
+    },
+    "orderDish": [
+      "Pad Thai",
+      "Spring Rolls"
+    ],
+    "totalBonus": 90,
+    "cost": 3000,
+    "payment": 3500,
+    "bonusForVisit": 45,
+    "statuses": {
+      "PREPARING": "2024-06-11T11:30:00",
+      "DELIVERING": "2024-06-11T12:15:00",
+      "DELIVERED": "2024-06-11T12:45:00"
+    },
+    "finalStatus": "DELIVERED",
+    "updateTime": "2024-06-11T12:45:00"
+  },
+  {
+    "_id": {
+      "$oid": "664e45cd5fabc4a74501decc"
+    },
+    "restaurant": {
+      "$oid": "664e42a05fabc4a74501deb9"
+    },
+    "client": {
+      "$oid": "664e40cd5fabc4a74501debc"
+    },
+    "orderDish": [
+      "Curry",
+      "Naan Bread"
+    ],
+    "totalBonus": 120,
+    "cost": 3500,
+    "payment": 4000,
+    "bonusForVisit": 60,
+    "statuses": {
+      "PREPARING": "2024-06-12T10:30:00",
+      "DELIVERING": "2024-06-12T11:15:00",
+      "DELIVERED": "2024-06-12T11:45:00"
+    },
+    "finalStatus": "DELIVERED",
+    "updateTime": "2024-06-12T11:45:00"
+  },
+  {
+    "_id": {
+      "$oid": "664e45cd5fabc4a74501decd"
+    },
+    "restaurant": {
+      "$oid": "664e40cd5fabc4a74501deb7"
+    },
+    "client": {
+      "$oid": "664e40cd5fabc4a74501debd"
+    },
+    "orderDish": [
+      "Pizza",
+      "Pasta",
+      "Wine"
+    ],
+    "totalBonus": 200,
+    "cost": 4500,
+    "payment": 5000,
+    "bonusForVisit": 100,
+    "statuses": {
+      "PREPARING": "2024-06-13T12:00:00",
+      "DELIVERING": "2024-06-13T13:00:00",
+      "DELIVERED": "2024-06-13T13:30:00"
+    },
+    "finalStatus": "DELIVERED",
+    "updateTime": "2024-06-13T13:30:00"
+  },
+  {
+    "_id": {
+      "$oid": "664e45cd5fabc4a74501dece"
+    },
+    "restaurant": {
+      "$oid": "664e42a05fabc4a74501deba"
+    },
+    "client": {
+      "$oid": "664e40cd5fabc4a74501debe"
+    },
+    "orderDish": [
+      "Sushi",
+      "Sake"
+    ],
+    "totalBonus": 150,
+    "cost": 5000,
+    "payment": 5500,
+    "bonusForVisit": 70,
+    "statuses": {
+      "PREPARING": "2024-06-14T11:30:00",
+      "DELIVERING": "2024-06-14T12:15:00",
+      "DELIVERED": "2024-06-14T12:45:00"
+    },
+    "finalStatus": "DELIVERED",
+    "updateTime": "2024-06-14T12:45:00"
+  },
+  {
+    "_id": {
+      "$oid": "664e45cd5fabc4a74501decf"
+    },
+    "restaurant": {
+      "$oid": "664e40cd5fabc4a74501deb8"
+    },
+    "client": {
+      "$oid": "664e40cd5fabc4a74501debf"
+    },
+    "orderDish": [
+      "Burger",
+      "Fries",
+      "Milkshake"
+    ],
+    "totalBonus": 110,
+    "cost": 2500,
+    "payment": 3000,
+    "bonusForVisit": 60,
+    "statuses": {
+      "PREPARING": "2024-06-15T10:00:00",
+      "DELIVERING": "2024-06-15T11:00:00",
+      "DELIVERED": "2024-06-15T11:30:00"
+    },
+    "finalStatus": "DELIVERED",
+    "updateTime": "2024-06-15T11:30:00"
+  },
+  {
+    "_id": {
+      "$oid": "664e45cd5fabc4a74501dec0"
+    },
+    "restaurant": {
+      "$oid": "664e42a05fabc4a74501debb"
+    },
+    "client": {
+      "$oid": "664e40cd5fabc4a74501dec0"
+    },
+    "orderDish": [
+      "Pasta",
+      "Garlic Bread"
+    ],
+    "totalBonus": 90,
+    "cost": 3000,
+    "payment": 3500,
+    "bonusForVisit": 50,
+    "statuses": {
+      "PREPARING": "2024-06-16T12:00:00",
+      "DELIVERING": "2024-06-16T13:00:00",
+      "DELIVERED": "2024-06-16T13:30:00"
+    },
+    "finalStatus": "DELIVERED",
+    "updateTime": "2024-06-16T13:30:00"
+  },
+  {
+    "_id": {
+      "$oid": "664e45cd5fabc4a74501dec1"
+    },
+    "restaurant": {
+      "$oid": "664e40cd5fabc4a74501debc"
+    },
+    "client": {
+      "$oid": "664e40cd5fabc4a74501dec1"
+    },
+    "orderDish": [
+      "Steak",
+      "Mashed Potatoes"
+    ],
+    "totalBonus": 130,
+    "cost": 4000,
+    "payment": 4500,
+    "bonusForVisit": 65,
+    "statuses": {
+      "PREPARING": "2024-06-17T10:45:00",
+      "DELIVERING": "2024-06-17T11:30:00",
+      "DELIVERED": "2024-06-17T12:00:00"
+    },
+    "finalStatus": "DELIVERED",
+    "updateTime": "2024-06-17T12:00:00"
+  },
+  {
+    "_id": {
+      "$oid": "664e45cd5fabc4a74501dec2"
+    },
+    "restaurant": {
+      "$oid": "664e42a05fabc4a74501debc"
+    },
+    "client": {
+      "$oid": "664e40cd5fabc4a74501dec2"
+    },
+    "orderDish": [
+      "Ramen",
+      "Miso Soup"
+    ],
+    "totalBonus": 80,
+    "cost": 2500,
+    "payment": 3000,
+    "bonusForVisit": 45,
+    "statuses": {
+      "PREPARING": "2024-06-18T09:30:00",
+      "DELIVERING": "2024-06-18T10:15:00",
+      "DELIVERED": "2024-06-18T10:45:00"
+    },
+    "finalStatus": "DELIVERED",
+    "updateTime": "2024-06-18T10:45:00"
+  },
+  {
+    "_id": {
+      "$oid": "664e45cd5fabc4a74501dec3"
+    },
+    "restaurant": {
+      "$oid": "664e40cd5fabc4a74501debd"
+    },
+    "client": {
+      "$oid": "664e40cd5fabc4a74501dec3"
+    },
+    "orderDish": [
+      "Tacos",
+      "Salsa"
+    ],
+    "totalBonus": 100,
+    "cost": 3000,
+    "payment": 3500,
+    "bonusForVisit": 50,
+    "statuses": {
+      "PREPARING": "2024-06-19T12:00:00",
+      "DELIVERING": "2024-06-19T12:45:00",
+      "DELIVERED": "2024-06-19T13:15:00"
+    },
+    "finalStatus": "DELIVERED",
+    "updateTime": "2024-06-19T13:15:00"
+  },
+  {
+    "_id": {
+      "$oid": "664e45cd5fabc4a74501dec4"
+    },
+    "restaurant": {
+      "$oid": "664e42a05fabc4a74501debd"
+    },
+    "client": {
+      "$oid": "664e40cd5fabc4a74501dec4"
+    },
+    "orderDish": [
+      "Chicken Curry",
+      "Rice"
+    ],
+    "totalBonus": 110,
+    "cost": 3500,
+    "payment": 4000,
+    "bonusForVisit": 55,
+    "statuses": {
+      "PREPARING": "2024-06-20T11:30:00",
+      "DELIVERING": "2024-06-20T12:15:00",
+      "DELIVERED": "2024-06-20T12:45:00"
+    },
+    "finalStatus": "DELIVERED",
+    "updateTime": "2024-06-20T12:45:00"
+  },
+  {
+    "_id": {
+      "$oid": "664e45cd5fabc4a74501dec5"
+    },
+    "restaurant": {
+      "$oid": "664e40cd5fabc4a74501debe"
+    },
+    "client": {
+      "$oid": "664e40cd5fabc4a74501dec5"
+    },
+    "orderDish": [
+      "Burger",
+      "Fries",
+      "Coke"
+    ],
+    "totalBonus": 120,
+    "cost": 2500,
+    "payment": 3000,
+    "bonusForVisit": 60,
+    "statuses": {
+      "PREPARING": "2024-06-21T10:00:00",
+      "DELIVERING": "2024-06-21T11:00:00",
+      "DELIVERED": "2024-06-21T11:30:00"
+    },
+    "finalStatus": "DELIVERED",
+    "updateTime": "2024-06-21T11:30:00"
+  },
+  {
+    "_id": {
+      "$oid": "664e45cd5fabc4a74501dec6"
+    },
+    "restaurant": {
+      "$oid": "664e42a05fabc4a74501debe"
+    },
+    "client": {
+      "$oid": "664e40cd5fabc4a74501dec6"
+    },
+    "orderDish": [
+      "Pizza",
+      "Salad"
+    ],
+    "totalBonus": 80,
+    "cost": 2000,
+    "payment": 2500,
+    "bonusForVisit": 40,
+    "statuses": {
+      "PREPARING": "2024-06-22T10:30:00",
+      "DELIVERING": "2024-06-22T11:15:00",
+      "DELIVERED": "2024-06-22T11:45:00"
+    },
+    "finalStatus": "DELIVERED",
+    "updateTime": "2024-06-22T11:45:00"
+  }
+]
