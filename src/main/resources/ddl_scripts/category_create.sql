@@ -2,6 +2,8 @@
 
 -- DROP TABLE IF EXISTS public.category;
 
+create sequence category_id_seq;
+
 CREATE TABLE IF NOT EXISTS public.category
 (
     id bigint NOT NULL DEFAULT nextval('category_id_seq'::regclass),

@@ -2,6 +2,8 @@
 
 -- DROP TABLE IF EXISTS public.client;
 
+create sequence client_id_seq;
+
 CREATE TABLE IF NOT EXISTS public.client
 (
     id bigint NOT NULL DEFAULT nextval('client_id_seq'::regclass),

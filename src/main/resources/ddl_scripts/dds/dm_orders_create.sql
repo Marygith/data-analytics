@@ -1,6 +1,6 @@
 -- dds.dm_orders определение
 
-CREATE TABLE IF NOT EXISTS dm_orders (
+CREATE TABLE IF NOT EXISTS dds.dm_orders (
     id SERIAL NOT NULL,
     time_id INTEGER NOT NULL,
     status VARCHAR NOT NULL,
@@ -12,5 +12,5 @@ CREATE TABLE IF NOT EXISTS dm_orders (
         REFERENCES dm_deliveries(id),
     CONSTRAINT fk_time
         FOREIGN KEY (time_id)
-        REFERENCES dm_time(time_id)
+        REFERENCES dds.dm_time(id)
 );
