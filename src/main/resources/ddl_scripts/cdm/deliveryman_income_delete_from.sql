@@ -1,0 +1,1 @@
+delete from cdm.deliveryman_income;

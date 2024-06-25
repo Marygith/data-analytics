@@ -2,6 +2,8 @@
 
 -- DROP TABLE IF EXISTS public.dish;
 
+create sequence dish_id_seq;
+
 CREATE TABLE IF NOT EXISTS public.dish
 (
     id bigint NOT NULL DEFAULT nextval('dish_id_seq'::regclass),

@@ -2,6 +2,8 @@
 
 -- DROP TABLE IF EXISTS public.logs;
 
+create sequence logs_id_seq;
+
 CREATE TABLE IF NOT EXISTS public.logs
 (
     id bigint NOT NULL DEFAULT nextval('logs_id_seq'::regclass),
