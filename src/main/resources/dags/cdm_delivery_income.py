@@ -155,7 +155,6 @@ def calculate_dm_deliveryman_income():
                     data['rating'] /= data['rating_count']
 
                 deliveryman_income_record = {
-                    'id': 1,
                     'deliveryman_id': deliveryman_id,
                     'deliveryman_name': data['deliveryman_name'],
                     'year': data['year'],
