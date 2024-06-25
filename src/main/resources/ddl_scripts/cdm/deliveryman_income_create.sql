@@ -1,5 +1,7 @@
+create sequence del_inc_id_seq;
+
 CREATE TABLE cdm.deliveryman_income (
-	id int NOT NULL,
+	id bigint NOT NULL DEFAULT nextval('del_inc_id_seq'::regclass),
 	deliveryman_id varchar NULL,
 	deliveryman_name varchar NULL,
 	"year" float8 NULL,
